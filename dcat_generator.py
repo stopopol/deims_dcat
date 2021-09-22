@@ -11,7 +11,9 @@ from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OW
                            VOID, XMLNS, XSD
 
 # relevant attributes from json
-# check function of BNode
+
+# check functionality of BNode doesn't have a url
+# https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
 title = Literal(site_record.get('title'))
 issued = Literal(site_record.get('created'))
@@ -36,7 +38,7 @@ g.add((site_url, DCTERMS['issued'], issued))
 g.add((site_url, DCTERMS['modified'], modified))
 g.add((site_url, DCTERMS['language'], Literal("en")))
 g.add((site_url, DCTERMS['description'], abstract))
-g.add((site_url, DCTERMS['identifier'], URIRef(site_url)))
+g.add((site_url, DCTERMS['identifier'], Literal(site_url)))
 g.add((site_url, DCAT['landingPage'], URIRef(site_url)))
 g.add((site_url, DCTERMS['Location'], coordinates))
 
@@ -49,7 +51,7 @@ for metadata_creator in metadataCreators:
     
 for observedProperty in observedProperties:
     g.add((site_url, DCAT['keyword'], Literal(observedProperty.get('label'))))
-    g.add((site_url, DCAT['keyword'], URIRef(observedProperty.get('uri'))))
+    #g.add((site_url, DCAT['keyword'], URIRef(observedProperty.get('uri'))))
 
 print(g.serialize())
 
