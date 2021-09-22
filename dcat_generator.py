@@ -1,39 +1,19 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[96]:
-
-
-import deims
-
-
-# In[97]:
-
-
-uuid = "8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6"
-site_record = getSiteById(uuid)
-
-
-# In[98]:
-
-
 # pip install rdflib
 import os
 from rdflib import Graph, URIRef, Literal, BNode
-from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OWL,                            PROF, PROV, RDF, RDFS, SDO, SH, SKOS, SOSA, SSN, TIME,                            VOID, XMLNS, XSD
+from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OWL, \
+                           PROF, PROV, RDF, RDFS, SDO, SH, SKOS, SOSA, SSN, TIME, \
+                           VOID, XMLNS, XSD
 
 # relevant attributes from json
+# check function of BNode
 
-# literal has url
-# BNode doesn't have a url
-# https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
-
-title = BNode(site_record.get('title'))
-issued = BNode(site_record.get('created'))
-modified = BNode(site_record.get('changed'))
+title = Literal(site_record.get('title'))
+issued = Literal(site_record.get('created'))
+modified = Literal(site_record.get('changed'))
 site_url = URIRef("http://www.deims.org/" + uuid)
 abstract = Literal(site_record.get('attributes').get('general').get('abstract'))
-coordinates = BNode(site_record.get('attributes').get('geographic').get('coordinates'))
+coordinates = Literal(site_record.get('attributes').get('geographic').get('coordinates'))
 
 # iterable objects
 contacts = site_record.get('attributes').get('contact').get('siteManager')
@@ -78,10 +58,3 @@ g.serialize(destination=destination_path, format='xml')
 
 # check validator 
 # https://www.itb.ec.europa.eu/shacl/dcat-ap.de/upload
-
-
-# In[ ]:
-
-
-
-
