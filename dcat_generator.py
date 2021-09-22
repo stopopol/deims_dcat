@@ -1,3 +1,8 @@
+import deims
+
+uuid = "8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6"
+site_record = getSiteById(uuid)
+
 # pip install rdflib
 import os
 from rdflib import Graph, URIRef, Literal, BNode
