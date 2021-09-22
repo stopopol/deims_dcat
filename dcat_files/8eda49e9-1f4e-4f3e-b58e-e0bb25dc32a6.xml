@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.w3.org/ns/dcat#"
+   xmlns:ns2="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.deims.org/8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <ns2:title rdf:nodeID="LTER Zöbelboden - Austria"/>
+    <ns2:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
+    <ns2:issued rdf:nodeID="2012-12-25T18:53:54+0100"/>
+    <ns2:modified rdf:nodeID="2021-07-16T14:17:45+0200"/>
+    <ns2:language>en</ns2:language>
+    <ns2:description>The Zöbelboden was established in 1992 as the only Integrated Monitoring station in Austria under the UN Convention on long-range transboundary air pollution (CLRTAP). In 2006 it became part of LTER Austria. The Zöbelboden covers a small forested catchment (90 ha) of a karstic mountain range (500 to 950 m above sea level) in the Kalkalpen National Park. Monitoring and research is focussing on climate change effects on forest ecosystems, the forest carbon and nitrogen cycle, biodiversity, and air pollution effects on forested catchments. The Zöbelboden represents one of the best known karst catchments in Europe with long-term data series of the major components of its ecosystems. The site is part of many national and international monitoring and research networkds (ICP Integrated Monitoring, EMEP, LTER, forestREplot, SoilTemp, LifePlan, IG-L, EU NEC-D, etc.). The Zöbelboden is managed by the Environement Agency Austria with technical support of the Kalkalpen National Park and the Austrian Federal Forests.</ns2:description>
+    <ns2:identifier rdf:resource="http://www.deims.org/8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6"/>
+    <ns1:landingPage rdf:resource="http://www.deims.org/8eda49e9-1f4e-4f3e-b58e-e0bb25dc32a6"/>
+    <ns2:Location rdf:nodeID="POINT (14.444136161386 47.842246069311)"/>
+    <ns1:contactPoint>Gisela Proell</ns1:contactPoint>
+    <ns1:contactPoint>Thomas Dirnboeck</ns1:contactPoint>
+    <ns1:creator>Gisela Proell</ns1:creator>
+    <ns1:creator>Ika Djukic</ns1:creator>
+    <ns1:creator>Johannes Kobler</ns1:creator>
+    <ns1:creator>Johannes Peterseil</ns1:creator>
+    <ns1:creator>Sarah Geiger</ns1:creator>
+    <ns1:creator>Thomas Dirnboeck</ns1:creator>
+    <ns1:keyword>abiotic heterogeneity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21476"/>
+    <ns1:keyword>above ground biomass</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22025"/>
+    <ns1:keyword>above ground net primary production</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10043"/>
+    <ns1:keyword>acid neutralising capacity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10310"/>
+    <ns1:keyword>age class</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21353"/>
+    <ns1:keyword>age distribution</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21354"/>
+    <ns1:keyword>age structure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21355"/>
+    <ns1:keyword>air humidity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22032"/>
+    <ns1:keyword>air specific humidity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22034"/>
+    <ns1:keyword>air temperature</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22035"/>
+    <ns1:keyword>air vapor pressure deficit</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22306"/>
+    <ns1:keyword>air water vapour pressure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22037"/>
+    <ns1:keyword>alpha diversity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22040"/>
+    <ns1:keyword>altitudinal gradient</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21352"/>
+    <ns1:keyword>ammonium content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10071"/>
+    <ns1:keyword>ammonium nitrate concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10072"/>
+    <ns1:keyword>ammonium nitrogen content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10076"/>
+    <ns1:keyword>animal species abundance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10336"/>
+    <ns1:keyword>animal species presence</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22059"/>
+    <ns1:keyword>annual net primary production</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21420"/>
+    <ns1:keyword>atmospheric parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20937"/>
+    <ns1:keyword>atmospheric pressure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22060"/>
+    <ns1:keyword>available phosphorus</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22061"/>
+    <ns1:keyword>available water capacity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21544"/>
+    <ns1:keyword>base cations content in water</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21208"/>
+    <ns1:keyword>base saturation</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22065"/>
+    <ns1:keyword>below ground autotrophic respiration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22066"/>
+    <ns1:keyword>beta diversity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22067"/>
+    <ns1:keyword>biodiversity loss</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20153"/>
+    <ns1:keyword>biological diversity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21391"/>
+    <ns1:keyword>biological parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20940"/>
+    <ns1:keyword>birds abundance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10020"/>
+    <ns1:keyword>birds presence</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10082"/>
+    <ns1:keyword>breast height diameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10031"/>
+    <ns1:keyword>bryophytes cover</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10117"/>
+    <ns1:keyword>bryophytes presence</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22206"/>
+    <ns1:keyword>bulk density</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22074"/>
+    <ns1:keyword>canopy cover rate</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22076"/>
+    <ns1:keyword>canopy gap area</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22077"/>
+    <ns1:keyword>canopy height</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22079"/>
+    <ns1:keyword>canopy transpiration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22081"/>
+    <ns1:keyword>carbon dioxide concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22082"/>
+    <ns1:keyword>carbon to nitrogen ratio</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21933"/>
+    <ns1:keyword>carbon-to-nitrogen ratio</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21350"/>
+    <ns1:keyword>cation exchange capacity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22084"/>
+    <ns1:keyword>change in population size over time</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22085"/>
+    <ns1:keyword>chemical parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10333"/>
+    <ns1:keyword>community composition</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22086"/>
+    <ns1:keyword>community structure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21472"/>
+    <ns1:keyword>conductivity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22089"/>
+    <ns1:keyword>crown closure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22093"/>
+    <ns1:keyword>daylight length</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22100"/>
+    <ns1:keyword>deadwood decaying rate</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22101"/>
+    <ns1:keyword>deadwood position</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22102"/>
+    <ns1:keyword>deadwood volume</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22103"/>
+    <ns1:keyword>diffuse radiation intensity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22106"/>
+    <ns1:keyword>diffuse solar radiation intensity</ns1:keyword>
+    <ns1:keyword>direct radiation intensity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22044"/>
+    <ns1:keyword>dissolved nutrient</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22107"/>
+    <ns1:keyword>dissolved organic carbon in soil</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22045"/>
+    <ns1:keyword>dissolved organic carbon in water</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10307"/>
+    <ns1:keyword>dissolved organic nitrogen</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10125"/>
+    <ns1:keyword>dissolved organic nitrogen in soil</ns1:keyword>
+    <ns1:keyword>disturbance pattern</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21473"/>
+    <ns1:keyword>diversity index</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21513"/>
+    <ns1:keyword>dry bulk density</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22109"/>
+    <ns1:keyword>dry matter content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21551"/>
+    <ns1:keyword>ecosystem parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20939"/>
+    <ns1:keyword>ecosystem structure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21475"/>
+    <ns1:keyword>electrical conductivity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21552"/>
+    <ns1:keyword>elevated temperature</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21525"/>
+    <ns1:keyword>environmental heterogeneity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22116"/>
+    <ns1:keyword>environmental parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20941"/>
+    <ns1:keyword>faunistic diversity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22119"/>
+    <ns1:keyword>floristic composition</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22121"/>
+    <ns1:keyword>floristic diversity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22122"/>
+    <ns1:keyword>forest cover</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22123"/>
+    <ns1:keyword>forest structure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21477"/>
+    <ns1:keyword>fraction of absorbed photosynthetically active radiation</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22330"/>
+    <ns1:keyword>global radiation irradiance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22125"/>
+    <ns1:keyword>habitat disturbance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21488"/>
+    <ns1:keyword>habitat heterogeneity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21489"/>
+    <ns1:keyword>habitat structure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21478"/>
+    <ns1:keyword>habitat use</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22128"/>
+    <ns1:keyword>heat flux</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22130"/>
+    <ns1:keyword>heterotrophic respiration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22131"/>
+    <ns1:keyword>hydraulic conductivity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22133"/>
+    <ns1:keyword>incoming radiation intensity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22134"/>
+    <ns1:keyword>inorganic carbon content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22135"/>
+    <ns1:keyword>inorganic nitrogen content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22136"/>
+    <ns1:keyword>inorganic nutrient content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22137"/>
+    <ns1:keyword>interception</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22139"/>
+    <ns1:keyword>land cover</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22142"/>
+    <ns1:keyword>land cover type</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10241"/>
+    <ns1:keyword>land use</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22143"/>
+    <ns1:keyword>land use intensity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22144"/>
+    <ns1:keyword>land use pattern</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22145"/>
+    <ns1:keyword>landscape composition</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22146"/>
+    <ns1:keyword>landscape configuration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22147"/>
+    <ns1:keyword>landscape parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20943"/>
+    <ns1:keyword>landscape structure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22152"/>
+    <ns1:keyword>latent heat</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22154"/>
+    <ns1:keyword>leaf area</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22156"/>
+    <ns1:keyword>leaf area index</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22157"/>
+    <ns1:keyword>leaf area ratio</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22158"/>
+    <ns1:keyword>leaf nitrogen concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22160"/>
+    <ns1:keyword>leaf nutrient</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22161"/>
+    <ns1:keyword>long wave radiation</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22164"/>
+    <ns1:keyword>macrofauna abundance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22028"/>
+    <ns1:keyword>maximum temperature</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21529"/>
+    <ns1:keyword>mean annual air temperature</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21530"/>
+    <ns1:keyword>mean annual precipitation</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22166"/>
+    <ns1:keyword>mean annual temperature</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21531"/>
+    <ns1:keyword>methane concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22167"/>
+    <ns1:keyword>microbial diversity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22169"/>
+    <ns1:keyword>mineral nitrogen mineralised from humus</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22046"/>
+    <ns1:keyword>mineral nitrogen mineralised from organic matter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22047"/>
+    <ns1:keyword>net primary productivity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21421"/>
+    <ns1:keyword>net radiation irradiance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22172"/>
+    <ns1:keyword>net solar radiation irradiance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22173"/>
+    <ns1:keyword>nitrogen balance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20969"/>
+    <ns1:keyword>nitrogen budget</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20970"/>
+    <ns1:keyword>nitrogen content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22174"/>
+    <ns1:keyword>normalized vegetation index</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22175"/>
+    <ns1:keyword>nutrient availability</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21457"/>
+    <ns1:keyword>nutrient concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22176"/>
+    <ns1:keyword>nutrient content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22177"/>
+    <ns1:keyword>nutrient flux</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21080"/>
+    <ns1:keyword>ozone concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22178"/>
+    <ns1:keyword>pH value of water</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21218"/>
+    <ns1:keyword>patch density</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22179"/>
+    <ns1:keyword>patch size</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22180"/>
+    <ns1:keyword>percent carbon</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22181"/>
+    <ns1:keyword>percent nitrogen</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22182"/>
+    <ns1:keyword>percent organic carbon</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22183"/>
+    <ns1:keyword>perched water table</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/30029"/>
+    <ns1:keyword>perched water table depth</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22184"/>
+    <ns1:keyword>phenotypic variation</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21443"/>
+    <ns1:keyword>photosynthetically active radiation intensity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22186"/>
+    <ns1:keyword>physical parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20938"/>
+    <ns1:keyword>plant carbon concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22187"/>
+    <ns1:keyword>plant cover</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22188"/>
+    <ns1:keyword>plant distribution</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21479"/>
+    <ns1:keyword>plant diversity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22191"/>
+    <ns1:keyword>plant height</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22192"/>
+    <ns1:keyword>plant nitrogen concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22193"/>
+    <ns1:keyword>plant nutrient</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22194"/>
+    <ns1:keyword>plant species abundance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10335"/>
+    <ns1:keyword>plant species composition</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22195"/>
+    <ns1:keyword>plant species presence</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10341"/>
+    <ns1:keyword>plant species richness</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22196"/>
+    <ns1:keyword>plant transpiration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22197"/>
+    <ns1:keyword>potential evaporation</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10017"/>
+    <ns1:keyword>precipitation intensity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22204"/>
+    <ns1:keyword>primary productivity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21419"/>
+    <ns1:keyword>radiation below canopy intensity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22208"/>
+    <ns1:keyword>reflected global radiation irradiance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22209"/>
+    <ns1:keyword>reflected radiation intensity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22210"/>
+    <ns1:keyword>relative humidity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21579"/>
+    <ns1:keyword>respiration rate</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22214"/>
+    <ns1:keyword>river temperature</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10015"/>
+    <ns1:keyword>root biomass</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22215"/>
+    <ns1:keyword>root density</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22216"/>
+    <ns1:keyword>root dry weight</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22217"/>
+    <ns1:keyword>runoff amount</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/30032"/>
+    <ns1:keyword>saturated hydraulic conductivity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22221"/>
+    <ns1:keyword>saturated water content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22222"/>
+    <ns1:keyword>seasonal change</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21569"/>
+    <ns1:keyword>seedling growth rate</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22234"/>
+    <ns1:keyword>seedling survival rate</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22235"/>
+    <ns1:keyword>snow cover</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21559"/>
+    <ns1:keyword>snow depth</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21207"/>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22240"/>
+    <ns1:keyword>snow water equivalent</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22242"/>
+    <ns1:keyword>soil acidity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22243"/>
+    <ns1:keyword>soil alkalinity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22038"/>
+    <ns1:keyword>soil base saturation</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22244"/>
+    <ns1:keyword>soil bulk density</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22245"/>
+    <ns1:keyword>soil carbon dioxide flux</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21560"/>
+    <ns1:keyword>soil carbon dioxyde flux</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21939"/>
+    <ns1:keyword>soil carbon storage</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22246"/>
+    <ns1:keyword>soil depth</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22247"/>
+    <ns1:keyword>soil dry bulk density</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22248"/>
+    <ns1:keyword>soil gas flux</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22251"/>
+    <ns1:keyword>soil heat flux</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22253"/>
+    <ns1:keyword>soil macrofauna abundance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10026"/>
+    <ns1:keyword>soil matrix water potential</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22255"/>
+    <ns1:keyword>soil microbial diversity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22257"/>
+    <ns1:keyword>soil moisture content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10039"/>
+    <ns1:keyword>soil moisture field capacity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10396"/>
+    <ns1:keyword>soil nitrate leaching</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10053"/>
+    <ns1:keyword>soil nitrogen</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22259"/>
+    <ns1:keyword>soil nutrient</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22260"/>
+    <ns1:keyword>soil organic carbon</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22261"/>
+    <ns1:keyword>soil organic residual</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22262"/>
+    <ns1:keyword>soil pH</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22264"/>
+    <ns1:keyword>soil parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20944"/>
+    <ns1:keyword>soil particle size</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22265"/>
+    <ns1:keyword>soil profile water content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22268"/>
+    <ns1:keyword>soil respiration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22269"/>
+    <ns1:keyword>soil solute amount</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22272"/>
+    <ns1:keyword>soil solution concentration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22274"/>
+    <ns1:keyword>soil solution pH</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22276"/>
+    <ns1:keyword>soil temperature</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22278"/>
+    <ns1:keyword>soil texture</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22279"/>
+    <ns1:keyword>soil volumetric water content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22280"/>
+    <ns1:keyword>soil water content</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22281"/>
+    <ns1:keyword>soil water content in the root zone</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22282"/>
+    <ns1:keyword>soil water holding capacity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/30037"/>
+    <ns1:keyword>soil water potential</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22283"/>
+    <ns1:keyword>soil water retention</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/30034"/>
+    <ns1:keyword>soil water retention curve</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/30035"/>
+    <ns1:keyword>soil wilting point</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/30036"/>
+    <ns1:keyword>solar radiation</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22284"/>
+    <ns1:keyword>species abundance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10018"/>
+    <ns1:keyword>species composition</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22285"/>
+    <ns1:keyword>species group abundance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10021"/>
+    <ns1:keyword>species list</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22286"/>
+    <ns1:keyword>species presence</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10081"/>
+    <ns1:keyword>species richness</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22287"/>
+    <ns1:keyword>species turnover</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22288"/>
+    <ns1:keyword>specific conductivity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22289"/>
+    <ns1:keyword>sunshine duration</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22111"/>
+    <ns1:keyword>suspended solids</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22293"/>
+    <ns1:keyword>thickness of soil horizon</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22295"/>
+    <ns1:keyword>total carbon</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22296"/>
+    <ns1:keyword>total organic carbon</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22297"/>
+    <ns1:keyword>total radiation irradiance</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22298"/>
+    <ns1:keyword>transpiration rate</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22299"/>
+    <ns1:keyword>tree age</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22300"/>
+    <ns1:keyword>tree basal area</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22301"/>
+    <ns1:keyword>tree condition</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22302"/>
+    <ns1:keyword>tree diameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22303"/>
+    <ns1:keyword>tree diameter at breast height</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22304"/>
+    <ns1:keyword>tree distribution</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21587"/>
+    <ns1:keyword>tree height</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22305"/>
+    <ns1:keyword>vapor pressure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21577"/>
+    <ns1:keyword>vapor pressure deficit</ns1:keyword>
+    <ns1:keyword>vegetation layer composition</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22307"/>
+    <ns1:keyword>vegetation layer structure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21480"/>
+    <ns1:keyword>vegetation layer type</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22308"/>
+    <ns1:keyword>vegetation pattern</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21481"/>
+    <ns1:keyword>vegetation structure</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/21482"/>
+    <ns1:keyword>water acidity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22030"/>
+    <ns1:keyword>water alkalinity</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10303"/>
+    <ns1:keyword>water parameter</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/20945"/>
+    <ns1:keyword>water quality</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22312"/>
+    <ns1:keyword>water temperature</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22313"/>
+    <ns1:keyword>water transparency</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/10392"/>
+    <ns1:keyword>water volume</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22316"/>
+    <ns1:keyword>wind direction</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22317"/>
+    <ns1:keyword>wind direction (mean and gust)</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22318"/>
+    <ns1:keyword>wind speed</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22319"/>
+    <ns1:keyword>wind speed (mean and gust)</ns1:keyword>
+    <ns1:keyword rdf:resource="http://vocabs.lter-europe.net/EnvThes/22320"/>
+  </rdf:Description>
+</rdf:RDF>
