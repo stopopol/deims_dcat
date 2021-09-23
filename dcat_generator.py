@@ -12,7 +12,7 @@ from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OW
 
 # relevant attributes from json
 
-# check functionality of BNode doesn't have a url
+# check functionality of BNode
 # https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
 title = Literal(site_record.get('title'))
@@ -39,10 +39,10 @@ g.add((site_url, DCTERMS['modified'], modified))
 g.add((site_url, DCTERMS['language'], Literal("en")))
 g.add((site_url, DCTERMS['description'], abstract))
 g.add((site_url, DCTERMS['identifier'], Literal(site_url)))
-g.add((site_url, DCAT['landingPage'], URIRef(site_url)))
 g.add((site_url, DCTERMS['Location'], coordinates))
+g.add((site_url, DCAT['landingPage'], URIRef(site_url)))
 
-# need loops
+# for fields with n properties
 for contact in contacts:
     g.add((site_url, DCAT['contactPoint'], Literal(contact.get('name'))))
     
@@ -58,10 +58,10 @@ print(g.serialize())
 # export to xml
 
 base_dir = os.getcwd() + '/dcat_files'
-filename = uuid + '.xml'
+filename = uuid + '.ttl'
 destination_path = os.path.join(base_dir, filename)
 
-g.serialize(destination=destination_path, format='xml')
+g.serialize(destination=destination_path, format='turtle')
 
 # check validator 
 # https://www.itb.ec.europa.eu/shacl/dcat-ap.de/upload
