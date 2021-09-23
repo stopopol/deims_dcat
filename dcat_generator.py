@@ -14,6 +14,7 @@ def generate_dcat(site_record):
     # check functionality of BNode
     # https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
+    id_suffix = site_record.get('id').get('suffix')
     title = Literal(site_record.get('title'))
     issued = Literal(site_record.get('created'))
     modified = Literal(site_record.get('changed'))
@@ -57,7 +58,7 @@ def generate_dcat(site_record):
 
     # export to xml
     base_dir = os.getcwd() + '/dcat_files'
-    filename = uuid + '.ttl'
+    filename = id_suffix + '.ttl'
     destination_path = os.path.join(base_dir, filename)
 
     g.serialize(destination=destination_path, format='turtle')
@@ -66,5 +67,5 @@ def generate_dcat(site_record):
     # https://www.itb.ec.europa.eu/shacl/dcat-ap.de/upload
     
 # list of all LTER Europe sites
-for uuid in deims.getListOfSites(network="4742ffca-65ac-4aae-815f-83738500a1fc", verified_only=False):
+for uuid in deims.getListOfSites(network="4742ffca-65ac-4aae-815f-83738500a1fc", verified_only=True):
     generate_dcat(deims.getSiteById(uuid))
