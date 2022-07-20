@@ -25,7 +25,7 @@ def generate_dcat(site_record):
     # iterable objects
     contacts = site_record.get('attributes').get('contact').get('siteManager')
     metadataCreators = site_record.get('attributes').get('contact').get('metadataProvider')
-    observedProperties = site_record.get('attributes').get('focusDesignScale').get('parameters')
+    observedProperties = site_record.get('attributes').get('focusDesignScale').get('observedProperties')
 
     g = Graph()
 
